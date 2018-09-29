@@ -1,0 +1,178 @@
+/**
+ * Author:    Sourav Kumar Nanda
+ * Created:   29.09.2018
+ **/
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;    /*The margin CSS property sets the margin area on all four sides of an element. */
+  padding: 0;   /* Padding is the space between the border and the content so that if you have text in an element, the padding helps 
+                 to make sure the text does not touches the border. Just like an actual box full of contents (such as a package you might want to ship out), you can add foam, or padding, around the contents so that it doesn't touch the sides of the (border) box. */
+
+                /* If the value is 0 then why we're specifing?
+                 Ans: The main reason this is used is because sometimes the browser will apply it's default margin/padding to elements, and in a case where you do not want there to be any margin or padding space around an element you will want to define that there is no margin or padding.
+                */
+}
+
+.intro {
+  top: 0;
+  background: #e0ebe8;
+  min-height: 55vh;
+  padding-top: 45vh;
+}
+
+.intro p {
+  color: green;
+}
+
+nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: #4dabf5;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+.work {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
+.work .work-header {
+  margin-top: 50px;
+  color: #008080;
+  font-weight: normal;
+}
+
+.project {
+  text-decoration: none;
+  color: #008080;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid lightblue;
+  height: 220px;
+  width: 280px;
+  margin: 40px 100px;
+  /*   background: url("https://res.cloudinary.com/dck40m3wf/image/upload/v1455459914/Portfolio/fancy-floral-pattern-384.jpg") repeat; */
+}
+
+.project-pic {
+  width: 100%;
+  height: 180px;
+  border-bottom: 2px solid lightblue;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.show-all {
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin: 20px auto 90px;
+  background: #e0ebe8;
+  color: #008080;
+  font-weight: bold;
+  font-size: 1em;
+  border: 2px solid #90C695;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.show-all:hover {
+  background: #E4F1FE;
+  color: green;
+}
+
+@media only screen and (max-width: 500px) {
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 20px;
+  }
+
+  .project {
+    margin: 40px 0;
+  }
+}
+.contact {
+  /*   height:800px; */
+  /*   min-height:800px; */
+  background: #C8F7C5;
+  padding-bottom: 160px;
+}
+
+.header {
+  padding: 160px 0 110px;
+}
+
+.contact-details {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 35px 45px 35px;
+  list-style-type: none;
+  border: 2px solid #90C695;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: #e0ebe8;
+  color: #008080;
+  text-decoration: none;
+}
+
+.contact-details:hover {    /* The :hover selector is used to select elements when you mouse over them. */
+  background: #E4F1FE;
+  color: green;
+}
+
+footer {
+  padding: 20px;
+  background: #22313F;
+  color: white;
+  line-height: 40px;
+}
+
+footer a {
+  color: white;
+}
+
+@media only screen and (max-width: 367px) {
+  /*    #contact{
+    min-height:1100px;
+  } */
+  .contact-details {
+    border: 2px solid #90C695;
+    border-radius: 0;
+    width: 90px;
+    height: 20px;
+    padding: 10px;
+    line-height: normal;
+  }
+}
