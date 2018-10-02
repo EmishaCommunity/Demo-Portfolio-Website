@@ -5,8 +5,8 @@
 
 html,
 body {
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
+  font-family: 'Open Sans', sans-serif;/*The font-family property sets the font style to open sans*/
+  text-align: center;                   /* the text-align property aligns the text to the center*/
 }
 
 * {
@@ -20,10 +20,15 @@ body {
 }
 
 .intro {
-  top: 0;
-  background: #e0ebe8;
-  min-height: 55vh;
-  padding-top: 45vh;
+  top: 0;       /*Set the top edge of the positioned element*/
+                /* If the value is 0 then why we're specifing?
+                 Ans: The main reason this is used is because sometimes the browser will apply it's default margin/padding to elements, and in a case where you do not want there to be any margin or padding space around an element you will want to define that there is no margin or padding.
+                */
+  background: #e0ebe8;/*The background property sets all the background properties at once, here only color is specified
+                        so the background color is set to the hex*/
+  min-height: 55vh;/*min height sets the minimum height to 5vh*/
+                    /*vh means 55% of the viewport height*/
+  padding-top: 45vh;/*Adds a padding of 45% of viewport height to the top*/
 }
 
 .intro p {
@@ -32,13 +37,15 @@ body {
 
 nav ul {
   text-align: right;
-  position: fixed;
-  width: 100%;
+  position: fixed;/*position property sets positioned relative to the viewport, 
+                  which means it always stays in the same place even if the page is scrolled.*/
+  width: 100%;  /*width property sets the width to 100% of the containing block*/
   background-color: #4dabf5;
 }
 
 nav ul li {
-  display: inline-block;
+  display: inline-block;/*display property specifies the display behavior (the type of rendering box) of an element.*/
+                        /*inline-block allows to set a width and height on the element and the top and bottom margins/paddings are respected*/
   margin: 55px;
   margin-bottom: 15px;
   margin-top: 25px;
@@ -47,12 +54,13 @@ nav ul li {
 
 nav ul li a {
   color: #ffffff;
-  text-decoration: none;
+  text-decoration: none;/*text decoration specifies the decoration added to text*/
+                        /*it can be described as type of line(underline, overline, line-through), color and style(solid, wavy, dotted, dashed, double)*/
 }
 
-nav ul li a:hover {
+nav ul li a:hover {/*hover selector is used to select elements when you mouse over them */
   color: black;
-}
+}*
 
 .work {
   padding-top: 60px;
@@ -89,17 +97,21 @@ nav ul li a:hover {
 
 .show-all {
   text-decoration: none;
-  display: block;
-  width: 200px;
-  height: 30px;
-  margin: 20px auto 90px;
+  display: block;         /*block attribute displays the element as a block element */
+                          /*It starts on a new line, and takes up the whole width */
+  width: 200px;           /*width sets the width of the elemnt */
+  height: 30px;           /*height sets the height of the element */
+  margin: 20px auto 90px; /*margin sets the margin for the top, right, bottom and left of the element respectively*/
+                          /*here auto tells the browser to automatically determine the left and right margins itself,
+                           which it does by setting them equally */
   background: #e0ebe8;
   color: #008080;
-  font-weight: bold;
-  font-size: 1em;
-  border: 2px solid #90C695;
-  border-radius: 4px;
-  cursor: pointer;
+  font-weight: bold;        /*font weight sets how thick or thin characters in text should be displayed */
+  font-size: 1em;           /*font size sets the size of the font */
+  border: 2px solid #90C695;/*border property allows you to specify the style, width, and color of an element's border */
+  border-radius: 4px;       /* it defines the radius of the element's corners and is used to add rounded corners to the borders*/
+  cursor: pointer;          /*specifies the mouse cursor to be displayed when pointing over an element*/
+                            /*pointer indicates the cursor is a pointer and indicates a link*/
   padding-top: 10px;
 }
 
@@ -129,19 +141,20 @@ nav ul li a:hover {
 }
 
 .header {
-  padding: 160px 0 110px;
+  padding: 160px 0 110px; /*the 3 values indicates padding to the top, right and bottom of the element*/
 }
 
 .contact-details {
   display: inline-block;
   font-weight: bold;
   margin: 0 35px 45px 35px;
-  list-style-type: none;
+  list-style-type: none;      /*"list-style-type"specifies the type of list-item marker in a list(circle, square, disc, etc)
+                              none indicates no marker is shown*/
   border: 2px solid #90C695;
   border-radius: 100%;
   width: 100px;
   height: 100px;
-  line-height: 100px;
+  line-height: 100px;         /* line-height property sets the amount of space used for lines, such as in text */
   background: #e0ebe8;
   color: #008080;
   text-decoration: none;
@@ -163,9 +176,11 @@ footer a {
   color: white;
 }
 
-@media only screen and (max-width: 367px) {
+/*The @media rule is used in media queries to apply different styles for different media types/devices
+such as width and height of the viewport or device, resolution, etc*/
+@media only screen and (max-width: 367px) {/*type of media, "screen" indicates it is used for computer screens, tablets, smart-phones etc.*/
   /*    #contact{
-    min-height:1100px;
+    min-height:1100px; 
   } */
   .contact-details {
     border: 2px solid #90C695;
@@ -173,6 +188,6 @@ footer a {
     width: 90px;
     height: 20px;
     padding: 10px;
-    line-height: normal;
+    line-height: normal;/*It defines a normal line height. It is the default value of this property */
   }
 }
