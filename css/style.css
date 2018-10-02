@@ -20,14 +20,14 @@ body {
 }
 
 .intro {
-  top: 0;
-  background: #e0ebe8;
-  min-height: 55vh;
-  padding-top: 45vh;
+  top: 0;/* padding properties are used to generate space around an element's content, inside of any defined borders */
+  background: #e0ebe8;/* Background tag is used to add a background color to the page */
+  min-height: 55vh;    /* min-height tag is used to adjust the height of the page  */ 
+  padding-top: 45vh;   /* Padding-top tag is used to generate space around an element's content towards top */
 }
 
 .intro p {
-  color: green;
+  color: green;/*  color tag is used to  give the color to the element*/
 }
 
 nav ul {
