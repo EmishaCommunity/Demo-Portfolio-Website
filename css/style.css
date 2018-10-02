@@ -15,19 +15,17 @@ body {
                  to make sure the text does not touches the border. Just like an actual box full of contents (such as a package you might want to ship out), you can add foam, or padding, around the contents so that it doesn't touch the sides of the (border) box. */
 
                 /* If the value is 0 then why we're specifing?
-                 Ans: The main reason this is used is because sometimes the browser will apply it's default margin/padding to elements, and in a case where you do not want there to be any margin or padding space around an element you will want to define that there is no margin or padding.
-                */
-}
-
+                 Ans: The main reason this is used is because sometimes the browser will apply it's default margin/padding to elements, and in a case where you do not want there to be any margin or padding space around an element you will want to define that there is no margin or padding. */
+               
 .intro {
-  top: 0;/* padding properties are used to generate space around an element's content, inside of any defined borders */
-  background: #e0ebe8;/* Background tag is used to add a background color to the page */
-  min-height: 55vh;    /* min-height tag is used to adjust the height of the page  */ 
-  padding-top: 45vh;   /* Padding-top tag is used to generate space around an element's content towards top */
+  top: 0;                  /* Top tag is specified to the vertical postion to the positioned element. In other words it specifies that how much space is added from top left corner of the monitor. */
+  background: #e0ebe8;     /* Background tag is used to add a background color to the page */
+  min-height: 55vh;        /* min-height tag is used to give  the minimum height of the page  */ 
+  padding-top: 45vh;       /* Padding-top tag is used to generate space around an element's content towards top */
 }
 
 .intro p {
-  color: green;/*  color tag is used to  give the color to the element*/
+  color: green;            /*  The color CSS property sets the foreground color value of an element's text content and text decorations.*/
 }
 
 nav ul {
