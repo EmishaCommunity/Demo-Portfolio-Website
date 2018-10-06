@@ -10,7 +10,7 @@ body {
 }
 
 * {
-  margin: 0;    /*The margin CSS property sets the margin area on all four sides of an element. */
+  margin: 0;    /*The margin CSS property sets the margin area on all four sides of an element.Using max-width instead, in this situation, will improve the browser's handling of small windows */
   padding: 0;   /* Padding is the space between the border and the content so that if you have text in an element, the padding helps 
                  to make sure the text does not touches the border. Just like an actual box full of contents (such as a package you might want to ship out), you can add foam, or padding, around the contents so that it doesn't touch the sides of the (border) box. */
 
