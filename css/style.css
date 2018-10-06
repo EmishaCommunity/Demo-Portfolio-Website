@@ -4,7 +4,7 @@
  **/
 
 html,
-body {
+body { /*Beginning of body*/
   font-family: 'Open Sans', sans-serif;/*The font-family property sets the font style to open sans*/
   text-align: center;                   /* the text-align property aligns the text to the center*/
 }
@@ -36,7 +36,7 @@ body {
 }
 
 nav ul {
-  text-align: right;
+  text-align: right;  /* the text-align property aligns the text to the right*/
   position: fixed;/*position property sets positioned relative to the viewport, 
                   which means it always stays in the same place even if the page is scrolled.*/
   width: 100%;  /*width property sets the width to 100% of the containing block*/
@@ -140,7 +140,7 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   padding-bottom: 160px;
 }
 
-.header {
+.header { /* The header is used to show header tab */ 
   padding: 160px 0 110px; /*the 3 values indicates padding to the top, right and bottom of the element*/
 }
 
