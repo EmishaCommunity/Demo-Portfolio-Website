@@ -32,7 +32,7 @@ body {
 }
 
 .intro p {
-  color: green;
+  color: green;/*every word of this paragraph is written in green*/
 }
 
 nav ul {
