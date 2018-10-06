@@ -35,7 +35,7 @@ body {
   color: green;
 }
 
-nav ul {
+nav ul { <!-- the user navigates the URL -->
   text-align: right;
   position: fixed;/*position property sets positioned relative to the viewport, 
                   which means it always stays in the same place even if the page is scrolled.*/
@@ -184,10 +184,10 @@ such as width and height of the viewport or device, resolution, etc*/
   } */
   .contact-details {
     border: 2px solid #90C695;
-    border-radius: 0;
+    border-radius: 0; <!-- border-radius property lets you round the corners of an element's outer border edge -->
     width: 90px;
     height: 20px;
-    padding: 10px;
+    padding: 10px; <!-- used to generate space around an element's content -->
     line-height: normal;/*It defines a normal line height. It is the default value of this property */
   }
 }
