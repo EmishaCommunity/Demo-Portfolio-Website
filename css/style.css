@@ -4,8 +4,8 @@
  **/
 
 html,
-body {
-  font-family: 'Open Sans', sans-serif;/*The font-family property sets the font style to open sans*/
+body { /* Beggining of body */
+    font-family: 'Open Sans', sans-serif;/*The font-family property sets the font style to open sans*/
   text-align: center;                   /* the text-align property aligns the text to the center*/
 }
 
@@ -36,7 +36,8 @@ body {
 }
 
 nav ul {
-  text-align: right;
+  text-align: right; /* the text-align property aligns the text to the right*/
+
   position: fixed;/*position property sets positioned relative to the viewport, 
                   which means it always stays in the same place even if the page is scrolled.*/
   width: 100%;  /*width property sets the width to 100% of the containing block*/
