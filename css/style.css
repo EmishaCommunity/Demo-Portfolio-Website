@@ -31,8 +31,8 @@ body {
   padding-top: 45vh;/*Adds a padding of 45% of viewport height to the top*/
 }
 
-.intro p {
-  color: green;
+.intro p {        
+  color: green;    /*this line shows the intro class which p is having will going to have a colour green*/
 }
 
 nav ul {
@@ -115,7 +115,7 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   padding-top: 10px;
 }
 
-.show-all:hover {
+.show-all:hover {                /* when mouse hover in show all element then its background  is going to be black background to green*/
   background: #E4F1FE;
   color: green;
 }
@@ -133,7 +133,7 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
     margin: 40px 0;
   }
 }
-.contact {
+.contact {                      /* contacts class is going to have the background color which is in hex and it will be padded to 160px */
   /*   height:800px; */
   /*   min-height:800px; */
   background: #C8F7C5;
