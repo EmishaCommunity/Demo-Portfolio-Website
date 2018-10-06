@@ -4,10 +4,10 @@
  **/
 
 html,
-body {
+body { /* Begining of body */
   font-family: 'Open Sans', sans-serif;/*The font-family property sets the font style to open sans*/
   text-align: center;                   /* the text-align property aligns the text to the center*/
-}
+} /* End of body */
 
 * {
   margin: 0;    /*The margin CSS property sets the margin area on all four sides of an element. */
@@ -36,7 +36,7 @@ body {
 }
 
 nav ul {
-  text-align: right;
+  text-align: right; /* It specifies the horizontal allignment of text */
   position: fixed;/*position property sets positioned relative to the viewport, 
                   which means it always stays in the same place even if the page is scrolled.*/
   width: 100%;  /*width property sets the width to 100% of the containing block*/
@@ -52,7 +52,7 @@ nav ul li {
   
 }
 
-nav ul li a {
+nav ul li a { 
   color: #ffffff;
   text-decoration: none;/*text decoration specifies the decoration added to text*/
                         /*it can be described as type of line(underline, overline, line-through), color and style(solid, wavy, dotted, dashed, double)*/
@@ -140,7 +140,7 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   padding-bottom: 160px;
 }
 
-.header {
+.header { /* It is use to define header of a segment */
   padding: 160px 0 110px; /*the 3 values indicates padding to the top, right and bottom of the element*/
 }
 
@@ -172,7 +172,7 @@ footer {
   line-height: 40px;
 }
 
-footer a {
+footer a { /* It is used for defining footer of a section */
   color: white;
 }
 
