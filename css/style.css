@@ -32,7 +32,7 @@ body {
 }
 
 .intro p {
-  color: green;
+  color: green;  /* set the color green of inro class of paragraph section*/
 }
 
 nav ul {
