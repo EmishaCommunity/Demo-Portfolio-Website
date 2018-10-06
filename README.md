@@ -4,7 +4,7 @@ about this project is, you can find the explanation to every line of code as a c
 
 
 ## Purpose of this project:
-- To get a Hands-on experience in HTML and CSS
+- To get a Handson experience in HTML and CSS
 - Anyone can use this project as a reference to design their own portfolio website
 - Can be a good starting point for beginneres who have just started exploring Open Source 
 - Will be used in Hactoberfest events
