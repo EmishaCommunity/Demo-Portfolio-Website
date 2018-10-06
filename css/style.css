@@ -32,39 +32,41 @@ body {
 }
 
 .intro p {
-  color: green;
+  color: green; /*Set the text colour green of the paragraph section*/
 }
 
 nav ul {
-  text-align: right;
+  text-align: right;/*set the position alingment of navigation bar to left of the web page*/
   position: fixed;/*position property sets positioned relative to the viewport, 
                   which means it always stays in the same place even if the page is scrolled.*/
   width: 100%;  /*width property sets the width to 100% of the containing block*/
-  background-color: #4dabf5;
+  background-color: #4dabf5; /*set the background colour skyblue (hexcode=#4dabf5) to the navigation bar*/
 }
 
 nav ul li {
   display: inline-block;/*display property specifies the display behavior (the type of rendering box) of an element.*/
                         /*inline-block allows to set a width and height on the element and the top and bottom margins/paddings are respected*/
-  margin: 55px;
-  margin-bottom: 15px;
-  margin-top: 25px;
+  margin: 55px; /*position the total margin of the navigation bar*/
+  margin-bottom: 15px; /*position bottom margin to 15px of navigation*/
+  margin-top: 25px;/*position top margin to 25px of navigation*/
   
 }
 
 nav ul li a {
-  color: #ffffff;
+  color: #ffffff; /*text colour of the link specified as white without mouse cursor*/
   text-decoration: none;/*text decoration specifies the decoration added to text*/
                         /*it can be described as type of line(underline, overline, line-through), color and style(solid, wavy, dotted, dashed, double)*/
 }
 
 nav ul li a:hover {/*hover selector is used to select elements when you mouse over them */
-  color: black;
+  color: black;/* specified the colour black as the mouse goes over the link*/
 }*
 
 .work {
-  padding-top: 60px;
-  margin-top: -60px;
+  padding-top: 60px; /*set the padding of 60px of work class*/
+                     /*it means space between content and border*/
+  margin-top: -60px; /*set the top margin to -60px of work class*/
+  /*it means the margin from the top will collapse 60px*/
 }
 
 .work .work-header {
