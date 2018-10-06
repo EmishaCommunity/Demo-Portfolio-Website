@@ -4,7 +4,7 @@
  **/
 
 html,
-body {
+body { /*The content of the document*/
   font-family: 'Open Sans', sans-serif;/*The font-family property sets the font style to open sans*/
   text-align: center;                   /* the text-align property aligns the text to the center*/
 }
