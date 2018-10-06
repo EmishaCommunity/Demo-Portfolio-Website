@@ -36,7 +36,7 @@ body {
 }
 
 nav ul {
-  text-align: right;
+  text-align: right;/*The text-align property specifies the horizontal alignment of text in an element.*/
   position: fixed;/*position property sets positioned relative to the viewport, 
                   which means it always stays in the same place even if the page is scrolled.*/
   width: 100%;  /*width property sets the width to 100% of the containing block*/
@@ -140,7 +140,7 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   padding-bottom: 160px;
 }
 
-.header {
+.header { /* heade of a segment.*/
   padding: 160px 0 110px; /*the 3 values indicates padding to the top, right and bottom of the element*/
 }
 
@@ -172,7 +172,7 @@ footer {
   line-height: 40px;
 }
 
-footer a {
+footer a { /* it is used for defining footer of a section. */
   color: white;
 }
 
