@@ -10,20 +10,13 @@ body {
 }
 
 * {
-  margin: 0;    /*The margin CSS property sets the margin area on all four sides of an element. */
-  padding: 0;   /* Padding is the space between the border and the content so that if you have text in an element, the padding helps 
-                 to make sure the text does not touches the border. Just like an actual box full of contents (such as a package you might want to ship out), you can add foam, or padding, around the contents so that it doesn't touch the sides of the (border) box. */
-
-                /* If the value is 0 then why we're specifing?
-                 Ans: The main reason this is used is because sometimes the browser will apply it's default margin/padding to elements, and in a case where you do not want there to be any margin or padding space around an element you will want to define that there is no margin or padding.
-                */
+  margin: 0;   
+  padding: 0;   
+                
 }
 
 .intro {
-  top: 0;       /*Set the top edge of the positioned element*/
-                /* If the value is 0 then why we're specifing?
-                 Ans: The main reason this is used is because sometimes the browser will apply it's default margin/padding to elements, and in a case where you do not want there to be any margin or padding space around an element you will want to define that there is no margin or padding.
-                */
+  top: 0;      
   background: #e0ebe8;/*The background property sets all the background properties at once, here only color is specified
                         so the background color is set to the hex*/
   min-height: 55vh;/*min height sets the minimum height to 5vh*/
@@ -54,7 +47,7 @@ nav ul li {
 
 nav ul li a {
   color: #ffffff;
-  text-decoration: none;/*text decoration specifies the decoration added to text*/
+  text-decoration: none;
                         /*it can be described as type of line(underline, overline, line-through), color and style(solid, wavy, dotted, dashed, double)*/
 }
 
@@ -106,8 +99,8 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
                            which it does by setting them equally */
   background: #e0ebe8;
   color: #008080;
-  font-weight: bold;        /*font weight sets how thick or thin characters in text should be displayed */
-  font-size: 1em;           /*font size sets the size of the font */
+  font-weight: bold;        
+  font-size: 1em;           
   border: 2px solid #90C695;/*border property allows you to specify the style, width, and color of an element's border */
   border-radius: 4px;       /* it defines the radius of the element's corners and is used to add rounded corners to the borders*/
   cursor: pointer;          /*specifies the mouse cursor to be displayed when pointing over an element*/
