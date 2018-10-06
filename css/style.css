@@ -35,7 +35,7 @@ body {
   color: green;
 }
 
-nav ul {
+nav ul { //<!--  nav ul is used to contain an unordered list of links -->
   text-align: right;
   position: fixed;/*position property sets positioned relative to the viewport, 
                   which means it always stays in the same place even if the page is scrolled.*/
@@ -43,7 +43,7 @@ nav ul {
   background-color: #4dabf5;
 }
 
-nav ul li {
+nav ul li { // nav tool s use for nvigation 
   display: inline-block;/*display property specifies the display behavior (the type of rendering box) of an element.*/
                         /*inline-block allows to set a width and height on the element and the top and bottom margins/paddings are respected*/
   margin: 55px;
@@ -173,7 +173,7 @@ footer {
 }
 
 footer a {
-  color: white;
+  color: white; //color is use for give what color you need
 }
 
 /*The @media rule is used in media queries to apply different styles for different media types/devices
