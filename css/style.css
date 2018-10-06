@@ -32,7 +32,7 @@ body {
 }
 
 .intro p {
-  color: green;
+  color: green; /* The color tag is used to represnt the font color and here is the font color is green */
 }
 
 nav ul {
