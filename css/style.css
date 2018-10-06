@@ -31,7 +31,7 @@ body {
   padding-top: 45vh;/*Adds a padding of 45% of viewport height to the top*/
 }
 
-.intro p {
+.intro p {   <!__ Set the colour of class p to green__>
   color: green;
 }
 
