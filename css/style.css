@@ -21,11 +21,10 @@ body {
 
 .intro {
   top: 0;       /*Set the top edge of the positioned element*/
-                /* If the value is 0 then why we're specifing?
+                /* If the value is 0 then why we're specifying?
                  Ans: The main reason this is used is because sometimes the browser will apply it's default margin/padding to elements, and in a case where you do not want there to be any margin or padding space around an element you will want to define that there is no margin or padding.
                 */
-  background: #e0ebe8;/*The background property sets all the background properties at once, here only color is specified
-                        so the background color is set to the hex*/
+
   min-height: 55vh;/*min height sets the minimum height to 5vh*/
                     /*vh means 55% of the viewport height*/
   padding-top: 45vh;/*Adds a padding of 45% of viewport height to the top*/
