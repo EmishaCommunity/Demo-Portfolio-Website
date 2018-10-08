@@ -120,7 +120,8 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   color: green;
 }
 
-@media only screen and (max-width: 500px) {
+               /*This thing below defines a style with condition of max-width 500px and hence will execute only when the condition is true*/
+@media only screen and (max-width: 500px) { 
   nav ul {
     text-align: center;
   }
