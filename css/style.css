@@ -19,6 +19,9 @@ body {
                 */
 }
 
+
+
+
 .intro {
   top: 0;       /*Set the top edge of the positioned element*/
                 /* If the value is 0 then why we're specifing?
@@ -33,6 +36,15 @@ body {
 
 .intro p {
   color: green;
+  opacity: 0;                       /*for animation purpose set opacity to zero at first */
+  animation: fadeIn ease-in 1.5s;   /*ease the opacity over course of 1.5 seconds*/
+  animation-fill-mode: forwards;    /*keep the opacity set to 1 forever after.*/
+  animation-delay: 1s;              /*for eas of reading keep this part delayed until h1 is almost done.*/
+}
+.intro h1{                          /*currently: purely for animation */
+  opacity: 0;                       /*by default set the opacity to zero so its invisible at first*/
+  animation: fadeIn ease-in 1.5s;   /*ease the opacity over course of 1.5 seconds*/
+  animation-fill-mode: forwards;    /*keep the opacity set to 1 forever after.*/
 }
 
 nav ul {
@@ -189,5 +201,14 @@ such as width and height of the viewport or device, resolution, etc*/
     height: 20px;
     padding: 10px;
     line-height: normal;/*It defines a normal line height. It is the default value of this property */
+  }
+}
+
+@keyframes fadeIn{  /*adding a transition for animations*/
+  0%{               /*At 0% of the transistion have to opacity set to zero (should be by default before hand)*/
+    opacity: 0;
+  }
+  100%{             /*By 100% have the opacity be at 1 so it is fully observable*/
+    opacity: 1;
   }
 }
