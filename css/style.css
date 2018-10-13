@@ -204,11 +204,11 @@ such as width and height of the viewport or device, resolution, etc*/
   }
 }
 
-@keyframes fadeIn{
-  0%{
+@keyframes fadeIn{  /*adding a transition for animations*/
+  0%{               /*At 0% of the transistion have to opacity set to zero (should be by default before hand)*/
     opacity: 0;
   }
-  100%{
+  100%{             /*By 100% have the opacity be at 1 so it is fully observable*/
     opacity: 1;
   }
 }
