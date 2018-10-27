@@ -77,7 +77,9 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   text-decoration: none;
   color: #008080;
   display: inline-block;
-  overflow: hidden;
+  overflow: hidden;/*The overflow property specifies whether to clip content or to add scrollbars when the content of an element is too big to fit in a specified area.
+   and hidden is used for the overflow is clipped, and the rest of the content will be invisible.
+  */.
   border: 2px solid lightblue;
   height: 220px;
   width: 280px;
