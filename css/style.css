@@ -32,7 +32,7 @@ body {
 }
 
 .intro p {
-  color: green;
+  color: green; /* This sets color for texts. For example, the color of the text in the paragraph under the intro class will be green  */
 }
 
 nav ul {
