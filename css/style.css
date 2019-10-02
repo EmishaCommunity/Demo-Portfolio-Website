@@ -70,7 +70,7 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
 .work .work-header {
   margin-top: 50px;
   color: #008080;
-  font-weight: normal;
+  font-weight: normal;/*the font-weight property sets how bold the font will be. It can be values such as light,normal and bold or numbers such as 100,400, 700 etc.  */
 }
 
 .project {
