@@ -120,6 +120,8 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   color: green;
 }
 
+/* its a command on css3 media queries are used to determine the width and 
+height of a viewport to make web pages look good on all devices */
 @media only screen and (max-width: 500px) {
   nav ul {
     text-align: center;
