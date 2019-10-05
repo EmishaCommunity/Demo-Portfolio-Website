@@ -147,7 +147,7 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
 .contact-details {
   display: inline-block;
   font-weight: bold;
-  margin: 0 35px 45px 35px; /*This is the margin shorthand property that specifies all the margin properties in one property from , top, right, bottom and finally the left.*/
+  margin: 0 35px 45px 35px;
   list-style-type: none;      /*"list-style-type"specifies the type of list-item marker in a list(circle, square, disc, etc)
                               none indicates no marker is shown*/
   border: 2px solid #90C695;
