@@ -99,12 +99,12 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   text-decoration: none;
   display: block;         /*block attribute displays the element as a block element */
                           /*It starts on a new line, and takes up the whole width */
-  width: 200px;           /*width sets the width of the elemnt */
+  width: 200px;           /*width sets the width of the element */
   height: 30px;           /*height sets the height of the element */
   margin: 20px auto 90px; /*margin sets the margin for the top, right, bottom and left of the element respectively*/
                           /*here auto tells the browser to automatically determine the left and right margins itself,
                            which it does by setting them equally */
-  background: #e0ebe8;
+  background: #e0ebe8;    /*background color changes*/
   color: #008080;
   font-weight: bold;        /*font weight sets how thick or thin characters in text should be displayed */
   font-size: 1em;           /*font size sets the size of the font */
@@ -112,7 +112,7 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   border-radius: 4px;       /* it defines the radius of the element's corners and is used to add rounded corners to the borders*/
   cursor: pointer;          /*specifies the mouse cursor to be displayed when pointing over an element*/
                             /*pointer indicates the cursor is a pointer and indicates a link*/
-  padding-top: 10px;
+  padding-top: 10px;        /*padding 10px from top*/
 }
 
 .show-all:hover {
@@ -122,7 +122,7 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
 
 @media only screen and (max-width: 500px) {
   nav ul {
-    text-align: center;
+    text-align: center;    /*text aligns to center*/
   }
 
   nav ul li {
@@ -145,7 +145,7 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
 }
 
 .contact-details {
-  display: inline-block;
+  display: inline-block;      /*contents will be displyed within a line */
   font-weight: bold;
   margin: 0 35px 45px 35px;
   list-style-type: none;      /*"list-style-type"specifies the type of list-item marker in a list(circle, square, disc, etc)
