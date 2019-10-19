@@ -32,11 +32,11 @@ body {
 }
 
 .intro p {
-  color: green;
+  color: green; /*Sets font color of <p> tag in div whose class is intro to green*/ 
 }
 
 nav ul {
-  text-align: right;
+  text-align: right;/*sets text-align to right in nav bar ul tag*/
   position: fixed;/*position property sets positioned relative to the viewport, 
                   which means it always stays in the same place even if the page is scrolled.*/
   width: 100%;  /*width property sets the width to 100% of the containing block*/
@@ -47,8 +47,8 @@ nav ul li {
   display: inline-block;/*display property specifies the display behavior (the type of rendering box) of an element.*/
                         /*inline-block allows to set a width and height on the element and the top and bottom margins/paddings are respected*/
   margin: 55px;
-  margin-bottom: 15px;
-  margin-top: 25px;
+  margin-bottom: 15px;/*sets margin from bottom of 15px*/
+  margin-top: 25px;/*sets margin from top by 25 px*/
   
 }
 
@@ -62,8 +62,8 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   color: black;
 }*
 
-.work {
-  padding-top: 60px;
+.work { /*This section is designed for project section*/
+  padding-top: 60px;/*sets padding from top 60px*/
   margin-top: -60px;
 }
 
@@ -116,17 +116,17 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
 }
 
 .show-all:hover {
-  background: #E4F1FE;
-  color: green;
+  background: #E4F1FE;/*this sets coloe of the link to this color when mouse is on it*/
+  color: green;/*this sets font color to green when mouse is on it*/
 }
 
 @media only screen and (max-width: 500px) {
   nav ul {
-    text-align: center;
+    text-align: center;/*this will center the text in nav class*/
   }
 
   nav ul li {
-    margin: 20px;
+    margin: 20px;/*this will set margin as 20px*/
   }
 
   .project {
@@ -161,11 +161,11 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
 }
 
 .contact-details:hover {    /* The :hover selector is used to select elements when you mouse over them. */
-  background: #E4F1FE;
+  background: #E4F1FE;/*changes color on hover*/
   color: green;
 }
 
-footer {
+footer {/*this is section footer and will set padding background color and font too*/
   padding: 20px;
   background: #22313F;
   color: white;
@@ -183,7 +183,7 @@ such as width and height of the viewport or device, resolution, etc*/
     min-height:1100px; 
   } */
   .contact-details {
-    border: 2px solid #90C695;
+    border: 2px solid #90C695;/*this will set border to contact details tab and will set color*/
     border-radius: 0;
     width: 90px;
     height: 20px;
