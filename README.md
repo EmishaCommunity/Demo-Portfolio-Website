@@ -1,4 +1,4 @@
-# About this project:
+# About this Amazing project:
 This is a very simple portfolio website which can be used by beginners who have just started learning about web development. The best thing
 about this project is, you can find the explanation to every line of code as a comment line.
 
