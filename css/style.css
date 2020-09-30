@@ -184,6 +184,7 @@ such as width and height of the viewport or device, resolution, etc*/
   } */
   .contact-details {
     border: 2px solid #90C695;
+    filter:drop-shadow(2px 2px 2px #888);
     border-radius: 0;
     width: 90px;
     height: 20px;
