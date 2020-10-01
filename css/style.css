@@ -32,7 +32,7 @@ body {
 }
 
 .intro p {
-  color: green;
+  color: green; /*Set the color of paragraph with class name as intro to green*/
 }
 
 nav ul {
@@ -78,7 +78,7 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   color: #008080;
   display: inline-block;
   overflow: hidden;
-  border: 2px solid lightblue;
+  border: 2px solid lightblue; /*Adds a solid border of 2px with lightblue color to the project class*/
   height: 220px;
   width: 280px;
   margin: 40px 100px;
@@ -147,7 +147,7 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
 .contact-details {
   display: inline-block;
   font-weight: bold;
-  margin: 0 35px 45px 35px;
+  margin: 0 35px 45px 35px; /*The four values include margin top, right, bottom, left of the element*/
   list-style-type: none;      /*"list-style-type"specifies the type of list-item marker in a list(circle, square, disc, etc)
                               none indicates no marker is shown*/
   border: 2px solid #90C695;
