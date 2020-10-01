@@ -4,33 +4,36 @@
 <head>  <!-- The <head> element is a container for all the head elements.
            The <head> element can include a title for the document, scripts, styles, meta information, and more. -->
   <meta charset="UTF-8">
-  <title>Demo Portfolio</title>
+  <title>Demo Portfolio</title>       <!-- The <title> tag defines the title of the document.
+                                            The title must be text-only, and it is shown in the browser's title bar or in the page's tab. -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">     <!-- The <link> tag defines the relationship between the current document and an external resource. -->
 </head>
 
-<body>
+<body>      <!-- The <body> element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. -->
 
-    <nav>
-        <ul id='navbar'>
-            <li><a href="#welcome-section">About</a></li>
-            <li><a href="#projects">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
+    <nav>                 <!-- The <nav> tag defines a set of navigation links. -->
+        <ul id='navbar'>      <!-- The <ul> tag defines an unordered (bulleted) list. -->
+            <li><a href="#welcome-section">About</a></li>     <!-- The <li> tag defines a list item. -->
+            <li><a href="#projects">Work</a></li>              <!-- The <a> tag defines a hyperlink, which is used to link from one page to another. -->
+            <li><a href="#contact">Contact</a></li>               <!-- HREF is an attribute of the anchor tag, which is also used to identify sections within a document. -->
         </ul>
     </nav>
 
-    <div id="welcome-section" class="intro"> 
-        <h1>Hey, I'm Emisha</h1>
-        <p>A web developer</p>
+    <div id="welcome-section" class="intro">             <!-- The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript. -->
+        <h1>Hey, I'm Emisha</h1>            <!-- <h1> defines the most important heading. -->
+        <p>A web developer</p>             <!-- The <p> tag defines a paragraph. -->
     </div>
-    
-    <div id="projects" class="work">
-        <h2 class="work-header">These are some of my projects..</h2>
-        
-        
+
+    <div id="projects" class="work">       <!-- The id attribute is most used to point to a style in a style sheet, and by JavaScript to manipulate the element with the specific id.  -->
+                                            <!-- The class name can be used by CSS and JavaScript to perform certain tasks for elements with the specified class name. -->
+        <h2 class="work-header">These are some of my projects..</h2>     <!-- The <h1> to <h6> tags are used to define HTML headings. -->
+
+
         <a href="" class="project project-tile">
-            <img class="project-pic" src="images/projectbg1.png" alt="project">
-            <div class="project-title">Demo Project 1</div>
+            <img class="project-pic" src="images/projectbg1.png" alt="project">        <!-- The <img> tag is used to embed an image in an HTML page. -->
+            <div class="project-title">Demo Project 1</div>                                <!-- src - Specifies the path to the image
+                                                                                               alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed-->
         </a>
         <a href="" class="project project-tile">
             <img class="project-pic" src="images/projectbg2.png" alt="project">
@@ -54,7 +57,7 @@
         </a>
         <a href="" class="show-all" target="_blank">Show all</a>
     </div>
-    
+
     <div id="contact" class="contact">
         <div class="header">
             <h1>Let's work together...</h1>
@@ -66,10 +69,10 @@
         <a href="mailto:" class="contact-details">Send a mail</a>
         <a href="tel:" class="contact-details">Call me</a>
     </div>
-    
-<footer>This is just a demo portfolio.. 
+
+<footer>This is just a demo portfolio..                                          <!-- The <footer> tag defines a footer for a document or section.-->
   <p>&copy; Created by <a href="https://getemisha.tech/" target="_blank">Emisha</a></p>
 </footer>
-    
+
 </body>
 </html>
