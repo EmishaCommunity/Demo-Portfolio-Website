@@ -19,6 +19,7 @@ body {
                 */
 }
 
+
 .intro {
   top: 0;       /*Set the top edge of the positioned element*/
                 /* If the value is 0 then why we're specifing?
@@ -31,8 +32,16 @@ body {
   padding-top: 45vh;/*Adds a padding of 45% of viewport height to the top*/
 }
 
-.intro p {
-  color: green;
+.intro h1{
+  color: #F7E0E0;
+  font-size: 350%;
+  font-weight:900;
+}
+.intro p{
+  color: #F7E0E0;
+  font-size: 150%;
+  font-weight: lighter;
+
 }
 
 nav ul {
@@ -54,28 +63,34 @@ nav ul li {
 
 nav ul li a {
   color: #ffffff;
+  font-size: 130%;
   text-decoration: none;/*text decoration specifies the decoration added to text*/
                         /*it can be described as type of line(underline, overline, line-through), color and style(solid, wavy, dotted, dashed, double)*/
 }
 
 nav ul li a:hover {/*hover selector is used to select elements when you mouse over them */
-  color: black;
+  transition: 0.3s ease;
+  color:#141414;
+
+  
 }*
 
 .work {
   padding-top: 60px;
   margin-top: -60px;
+  
 }
 
 .work .work-header {
   margin-top: 50px;
-  color: #008080;
+  color: #444242;
   font-weight: normal;
+  font-size: 300%;
 }
 
 .project {
   text-decoration: none;
-  color: #008080;
+  color: #141414;
   display: inline-block;
   overflow: hidden;
   border: 2px solid lightblue;
@@ -99,7 +114,7 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   text-decoration: none;
   display: block;         /*block attribute displays the element as a block element */
                           /*It starts on a new line, and takes up the whole width */
-  width: 200px;           /*width sets the width of the elemnt */
+  width: 300px;           /*width sets the width of the elemnt */
   height: 30px;           /*height sets the height of the element */
   margin: 20px auto 90px; /*margin sets the margin for the top, right, bottom and left of the element respectively*/
                           /*here auto tells the browser to automatically determine the left and right margins itself,
@@ -116,8 +131,9 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
 }
 
 .show-all:hover {
-  background: #E4F1FE;
-  color: green;
+  background: #827F7F;
+  color:#ffffff;
+  transition: 0.2s ease;
 }
 
 @media only screen and (max-width: 500px) {
@@ -161,8 +177,9 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
 }
 
 .contact-details:hover {    /* The :hover selector is used to select elements when you mouse over them. */
-  background: #E4F1FE;
-  color: green;
+  background: #A09C9C;
+  color:#000000;
+  transition: 0.2s ease;
 }
 
 footer {
@@ -190,4 +207,11 @@ such as width and height of the viewport or device, resolution, etc*/
     padding: 10px;
     line-height: normal;/*It defines a normal line height. It is the default value of this property */
   }
+}
+#welcome-section{
+  background-image:linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(0,0,0,0.3)),url("../images/download1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: auto;
 }
