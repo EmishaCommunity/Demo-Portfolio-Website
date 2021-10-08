@@ -183,7 +183,7 @@ such as width and height of the viewport or device, resolution, etc*/
     min-height:1100px; 
   } */
   .contact-details {
-    border: 2px solid #90C695;
+    border: 2px solid #90C695; /*adds a solid border with width of 2px and colour based on the hex color code provided (in this case #90C695)*/
     border-radius: 0;
     width: 90px;
     height: 20px;
